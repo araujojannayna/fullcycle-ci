@@ -1,0 +1,28 @@
+{
+  "name": "fullcycle_ci_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujojannayna/fullcycle_ci_challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araujojannayna/fullcycle_ci_challenge/issues"
+  },
+  "homepage": "https://github.com/araujojannayna/fullcycle_ci_challenge#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "express": "^4.18.1",
+    "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
