@@ -1,0 +1,12 @@
+name: ci-node-workflow
+on: [push]
+jobs:
+    check-application:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - uses: action/setup-node@v2
+            with:
+              node-version: 16.15.0
+          - run: node test
+          - run: node app.js
