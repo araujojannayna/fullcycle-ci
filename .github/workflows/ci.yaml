@@ -8,5 +8,5 @@ jobs:
           - uses: actions/setup-node@v3
             with:
               node-version: 16.15.0
-          - run: npm ci
-          - run: npm test
+          - run: node test
+          - run: node app.js
