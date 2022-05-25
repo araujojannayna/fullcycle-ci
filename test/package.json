@@ -4,8 +4,7 @@
   "description": "",
   "main": "printer.test.js",
   "scripts": {
-    "test": "jest",
-    "test:ci": "jest --config ./jest.config.js --collectCoverage --coverageDirectory=\"./coverage\" --ci --reporters=default --reporters=jest-junit --watchAll=false"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
